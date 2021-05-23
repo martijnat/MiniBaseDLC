@@ -1,0 +1,37 @@
+name: STRINGS.MISC.TAGS.RAREMATERIALS
+description: STRINGS.MISC.TAGS.RAREMATERIALS
+disableWorldTraits: true
+
+worldsize:
+  X: 16
+  Y: 16
+layoutMethod: PowerTree
+
+defaultsOverrides:
+  data:
+    DrawWorldBorder: true
+    DrawWorldBorderOverVacuum: false
+    WorldBorderThickness: 1
+    WorldBorderRange: 0
+    OverworldDensityMin: 20
+    OverworldDensityMax: 20
+    OverworldAvoidRadius: 10
+    OverworldSampleBehaviour: PoissonDisk
+    OverworldMinNodes: 1
+
+# List all the zone files to load
+subworldFiles:
+  - name: subworlds/mini/Rare
+
+unknownCellsAllowedSubworlds:
+  - tagcommand: Default
+    command: Replace
+    subworldNames:
+      - subworlds/mini/Rare
+  - tagcommand: DistanceFromTag
+    tag: AtSurface
+    minDistance: 1
+    maxDistance: 5
+    command: Replace
+    subworldNames:
+      - subworlds/mini/Rare

@@ -1,0 +1,37 @@
+tags:
+  - AllowExceedNodeBorders
+  - PreventAmbientMobsInFeature # Prevent WormPlant from spawning here
+shape: ShortWide
+borders:
+  - 4
+blobSize:
+  min: 4.5
+  max: 8.5
+internalMobs:
+  - type: Moo
+    count:
+      min: 4
+      max: 8
+  - type: GasGrass
+    count:
+      min: 4
+      max: 8
+ElementChoiceGroups:
+  RoomCenterElements:
+    selectionMethod: HorizontalSlice
+    choices:
+      - element: Methane
+        weight: 1
+  RoomBorderChoices0:
+    selectionMethod: WeightedResample
+    choices:
+      - element: Fullerene
+        weight: 1
+      - element: Isoresin
+        weight: 1
+      - element: Niobium
+        weight: 1
+      - element: UraniumOre
+        weight: 1
+
+

@@ -1,0 +1,56 @@
+name: STRINGS.UI.FRONTEND.WORLDGENSCREEN.SIZES.TINY
+description: STRINGS.UI.FRONTEND.WORLDGENSCREEN.SIZES.TINY
+disableWorldTraits: true
+
+worldsize:
+  X: 96
+  Y: 64
+layoutMethod: PowerTree
+
+defaultsOverrides:
+  data:
+    DrawWorldBorder: true
+    DrawWorldBorderTop: false
+    DrawWorldBorderOverVacuum: false
+    WorldBorderThickness: 1
+    WorldBorderRange: 0
+    OverworldDensityMin: 20
+    OverworldDensityMax: 20
+    OverworldAvoidRadius: 10
+    OverworldSampleBehaviour: PoissonDisk
+    OverworldMinNodes: 1
+
+startSubworldName: subworlds/mini/Start
+startingBaseTemplate: bases/BabyBase
+startingBasePositionHorizontal:
+  min: 0.5
+  max: 0.5
+startingBasePositionVertical:
+  min: 0.5
+  max: 0.5
+
+# List all the zone files to load
+subworldFiles:
+  - name: subworlds/mini/Empty
+  - name: subworlds/mini/Start
+  - name: expansion1::subworlds/space/SpaceWithNoBorder
+
+unknownCellsAllowedSubworlds:
+  - tagcommand: Default
+    command: Replace
+    subworldNames:
+      - subworlds/mini/Start
+  - tagcommand: DistanceFromTag
+    tag: AtStart
+    minDistance: 1
+    maxDistance: 9
+    command: Replace
+    subworldNames:
+      - subworlds/mini/Empty
+  - tagcommand: DistanceFromTag
+    tag: AtStart
+    minDistance: 9
+    maxDistance: 99
+    command: Replace
+    subworldNames:
+      - expansion1::subworlds/space/SpaceWithNoBorder

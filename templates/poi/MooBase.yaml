@@ -1,0 +1,426 @@
+name: MooBase
+info:
+  size:
+    X: 8
+    Y: 4
+  area: 32
+cells:
+- element: Fullerene
+  mass: 100
+  temperature: 242.149994
+  diseaseName: FoodPoisoning
+  diseaseCount: 972466
+  location_x: -3
+  location_y: -1
+- element: Fullerene
+  mass: 100
+  temperature: 242.149994
+  diseaseName: FoodPoisoning
+  diseaseCount: 972466
+  location_x: -2
+  location_y: -1
+- element: Fullerene
+  mass: 100
+  temperature: 242.149994
+  diseaseName: FoodPoisoning
+  diseaseCount: 972466
+  location_x: -1
+  location_y: -1
+- element: Fullerene
+  mass: 100
+  temperature: 242.149994
+  diseaseName: FoodPoisoning
+  diseaseCount: 972466
+  location_y: -1
+- element: Fullerene
+  mass: 30
+  temperature: 242.149994
+  diseaseName: FoodPoisoning
+  diseaseCount: 972466
+  location_x: 1
+  location_y: -1
+- element: Fullerene
+  mass: 30
+  temperature: 242.149994
+  diseaseName: FoodPoisoning
+  diseaseCount: 972466
+  location_x: 2
+  location_y: -1
+- element: Fullerene
+  mass: 30
+  temperature: 242.149994
+  diseaseName: FoodPoisoning
+  diseaseCount: 972466
+  location_x: 3
+  location_y: -1
+- element: Fullerene
+  mass: 30
+  temperature: 242.149994
+  diseaseName: FoodPoisoning
+  diseaseCount: 972466
+  location_x: 4
+  location_y: -1
+- element: Isoresin
+  mass: 9999
+  temperature: 242.149994
+  diseaseName: FoodPoisoning
+  diseaseCount: 985771
+  location_x: -3
+- element: Isoresin
+  mass: 9999
+  temperature: 242.149994
+  diseaseName: FoodPoisoning
+  diseaseCount: 985771
+  location_x: -2
+- element: Isoresin
+  mass: 9999
+  temperature: 242.149994
+  diseaseName: FoodPoisoning
+  diseaseCount: 985771
+  location_x: -1
+- element: Isoresin
+  mass: 9999
+  temperature: 242.149994
+  diseaseName: FoodPoisoning
+  diseaseCount: 985771
+- element: Isoresin
+  mass: 9999
+  temperature: 242.149994
+  diseaseName: FoodPoisoning
+  diseaseCount: 985771
+  location_x: 1
+- element: Isoresin
+  mass: 9999
+  temperature: 242.149994
+  diseaseName: FoodPoisoning
+  diseaseCount: 985771
+  location_x: 2
+- element: Isoresin
+  mass: 9999
+  temperature: 242.149994
+  diseaseName: FoodPoisoning
+  diseaseCount: 985771
+  location_x: 3
+- element: Isoresin
+  mass: 9999
+  temperature: 242.149994
+  diseaseName: FoodPoisoning
+  diseaseCount: 985771
+  location_x: 4
+- element: Niobium
+  mass: 9999
+  temperature: 242.150299
+  diseaseName: FoodPoisoning
+  diseaseCount: 985771
+  location_x: -3
+  location_y: 1
+- element: Niobium
+  mass: 9999
+  temperature: 242.150299
+  diseaseName: FoodPoisoning
+  diseaseCount: 985771
+  location_x: -2
+  location_y: 1
+- element: Niobium
+  mass: 9999
+  temperature: 242.150299
+  diseaseName: FoodPoisoning
+  diseaseCount: 985771
+  location_x: -1
+  location_y: 1
+- element: Niobium
+  mass: 9999
+  temperature: 242.150299
+  diseaseName: FoodPoisoning
+  diseaseCount: 985771
+  location_y: 1
+- element: Niobium
+  mass: 9999
+  temperature: 242.150299
+  diseaseName: FoodPoisoning
+  diseaseCount: 985771
+  location_x: 1
+  location_y: 1
+- element: Niobium
+  mass: 9999
+  temperature: 242.150299
+  diseaseName: FoodPoisoning
+  diseaseCount: 985771
+  location_x: 2
+  location_y: 1
+- element: Niobium
+  mass: 9999
+  temperature: 242.150299
+  diseaseName: FoodPoisoning
+  diseaseCount: 985771
+  location_x: 3
+  location_y: 1
+- element: Niobium
+  mass: 9999
+  temperature: 242.150299
+  diseaseName: FoodPoisoning
+  diseaseCount: 985771
+  location_x: 4
+  location_y: 1
+- element: Vacuum
+  location_x: -3
+  location_y: 2
+- element: Vacuum
+  location_x: -2
+  location_y: 2
+- element: Vacuum
+  location_x: -1
+  location_y: 2
+- element: Vacuum
+  location_y: 2
+- element: Vacuum
+  location_x: 1
+  location_y: 2
+- element: Vacuum
+  location_x: 2
+  location_y: 2
+- element: Vacuum
+  location_x: 3
+  location_y: 2
+- element: Vacuum
+  location_x: 4
+  location_y: 2
+pickupables:
+- id: GasGrassSeed
+  location_x: -3
+  location_y: 2
+  element: Creature
+  temperature: 292.895142
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: GasGrassSeed
+  location_x: -2
+  location_y: 2
+  element: Creature
+  temperature: 292.895142
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: GasGrassSeed
+  location_x: -1
+  location_y: 2
+  element: Creature
+  temperature: 292.895142
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: GasGrassSeed
+  location_y: 2
+  element: Creature
+  temperature: 292.895142
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: GasGrassSeed
+  location_x: 1
+  location_y: 2
+  element: Creature
+  temperature: 292.895142
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: GasGrassSeed
+  location_x: 2
+  location_y: 2
+  element: Creature
+  temperature: 292.895142
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: GasGrassSeed
+  location_x: 3
+  location_y: 2
+  element: Creature
+  temperature: 292.895142
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: GasGrassSeed
+  location_x: 4
+  location_y: 2
+  element: Creature
+  temperature: 292.895142
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: Moo
+  location_x: -3
+  location_y: 2
+  element: Creature
+  temperature: 292.997894
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: Moo
+  location_x: -2
+  location_y: 2
+  element: Creature
+  temperature: 292.997894
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: Moo
+  location_x: -1
+  location_y: 2
+  element: Creature
+  temperature: 292.997894
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: Moo
+  location_y: 2
+  element: Creature
+  temperature: 292.997894
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: Moo
+  location_x: 1
+  location_y: 2
+  element: Creature
+  temperature: 292.997894
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: Moo
+  location_x: 2
+  location_y: 2
+  element: Creature
+  temperature: 292.997894
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: Moo
+  location_x: 3
+  location_y: 2
+  element: Creature
+  temperature: 292.997894
+  units: 1
+  type: Pickupable
+  rottable: {}
+- id: Moo
+  location_x: 4
+  location_y: 2
+  element: Creature
+  temperature: 292.997894
+  units: 1
+  type: Pickupable
+  rottable: {}
+otherEntities:
+- id: GasGrass
+  location_x: -3
+  location_y: 2
+  element: Creature
+  temperature: 254.9767
+  units: 1
+  type: Other
+  amounts:
+  - id: Maturity
+    value: 8.33333397E-05
+  - id: AirPressure
+  - id: Temperature
+  - id: OldAge
+  - id: Irrigation
+- id: GasGrass
+  location_x: -2
+  location_y: 2
+  element: Creature
+  temperature: 254.9767
+  units: 1
+  type: Other
+  amounts:
+  - id: Maturity
+    value: 8.33333397E-05
+  - id: AirPressure
+  - id: Temperature
+  - id: OldAge
+  - id: Irrigation
+- id: GasGrass
+  location_x: -1
+  location_y: 2
+  element: Creature
+  temperature: 254.9767
+  units: 1
+  type: Other
+  amounts:
+  - id: Maturity
+    value: 8.33333397E-05
+  - id: AirPressure
+  - id: Temperature
+  - id: OldAge
+  - id: Irrigation
+- id: GasGrass
+  location_y: 2
+  element: Creature
+  temperature: 254.9767
+  units: 1
+  type: Other
+  amounts:
+  - id: Maturity
+    value: 8.33333397E-05
+  - id: AirPressure
+  - id: Temperature
+  - id: OldAge
+  - id: Irrigation
+- id: GasGrass
+  location_x: 1
+  location_y: 2
+  element: Creature
+  temperature: 254.9767
+  units: 1
+  type: Other
+  amounts:
+  - id: Maturity
+    value: 8.33333397E-05
+  - id: AirPressure
+  - id: Temperature
+  - id: OldAge
+  - id: Irrigation
+- id: GasGrass
+  location_x: 2
+  location_y: 2
+  element: Creature
+  temperature: 254.9767
+  units: 1
+  type: Other
+  amounts:
+  - id: Maturity
+    value: 8.33333397E-05
+  - id: AirPressure
+  - id: Temperature
+  - id: OldAge
+  - id: Irrigation
+- id: GasGrass
+  location_x: 3
+  location_y: 2
+  element: Creature
+  temperature: 254.9767
+  units: 1
+  type: Other
+  amounts:
+  - id: Maturity
+    value: 8.33333397E-05
+  - id: AirPressure
+  - id: Temperature
+  - id: OldAge
+  - id: Irrigation
+- id: GasGrass
+  location_x: 4
+  location_y: 2
+  element: Creature
+  temperature: 254.9767
+  units: 1
+  type: Other
+  amounts:
+  - id: Maturity
+    value: 8.33333397E-05
+  - id: AirPressure
+  - id: Temperature
+  - id: OldAge
+  - id: Irrigation

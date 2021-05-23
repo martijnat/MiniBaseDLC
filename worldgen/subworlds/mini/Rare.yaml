@@ -1,0 +1,27 @@
+biomeNoise: noise/Generic
+temperatureRange: ExtremelyCold
+minChildCount: 1
+density:
+  min: 35
+  max: 45
+avoidRadius: 50.0
+sampleBehaviour: PoissonDisk
+biomes:
+  - name: biomes/Misc/Space
+    weight: 1
+    #overrides:
+    #  massMultiplier: 50
+pointsOfInterest:
+  ruins_a:
+    - poi/MooBase
+  ruins_b:
+    - poi/MooBase
+  ruins_c:
+    - poi/MooBase
+  ruins_d:
+    - poi/MooBase
+tags:
+  - IgnoreCaveOverride
+  - NoGlobalFeatureSpawning
+  - ErodePointToWorldTop
+zoneType: Sandstone

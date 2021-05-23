@@ -1,0 +1,17 @@
+name: STRINGS.UI.FRONTEND.WORLDGENSCREEN.SIZES.TINY
+description: STRINGS.UI.FRONTEND.WORLDGENSCREEN.SIZES.TINY
+requiredDlcId: EXPANSION1_ID
+menuOrder: 100
+coordinatePrefix: BABY-B
+clusterCategory: 2
+
+startWorldIndex: 0
+worldPlacements:
+- world: worlds/BabyBase
+  allowedRings:
+    min: 0
+    max: 0
+- world: worlds/TinyAsteroid
+  allowedRings:
+    min: 3
+    max: 3
